@@ -1,0 +1,117 @@
+  
+  body {
+
+    margin: 0;
+    padding: 100px;
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: 1em;
+    font-family: sans-serif;
+
+  }
+  
+  a { text-decoration: none; }
+  
+  a:hover { text-decoration: underline; }
+  
+  h1 { font-size: 2em; padding-bottom: 0; }
+
+  h1, #contact { margin-bottom: 50px; }
+  
+  h1 a { color: black; }
+
+  #quote { color: gray; font-family: serif; margin-bottom: 20px; }
+
+  #quote span { font-size: 4em; vertical-align: -40%; }
+  
+  h2 a { color: gray; }
+  
+  #contact a { color: black; }
+
+  #contact a:hover { text-decoration: none; }
+  
+  h2 { font-size: 1.1em; }
+  
+  ul {
+
+    list-style: none;
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+
+  }
+  
+  li {
+
+    float: left;
+    width: 300px;
+    margin: 0;
+    background: #ddd;
+    padding: 10px;
+    font-size: 0.9em;
+    cursor: pointer;
+
+  }
+
+  #notify {
+
+    position: absolute;
+    width: 500px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -40px;
+    padding: 20px;
+    border: 1px black solid;
+    background: white;
+
+  }
+
+  #notify div {
+
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.8em;
+
+  }
+
+  #notify a { color: gray; }
+
+  #email_box {
+
+    position: absolute;
+    width: 400px;
+    height: 240px;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -120px;
+    padding: 20px;
+    border: 1px black solid;
+    background: white;
+
+  }
+
+  #email_box textarea {
+
+    width: 100%;
+    height: 120px;
+    margin: 0;
+
+  }
+
+  #email_box div { padding: 0; margin: 0; margin-bottom: 15px; }
+
+  #from { width: 280px; margin-left: 20px; }
+
+  #email_box div.footer { text-align: left; }
+
+  #email_box div.footer input { float: right; }
+
+  #email_box div.footer a { color: gray; }
+  
+  li:first-child { margin-right: 20px; };
+
