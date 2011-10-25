@@ -112,7 +112,7 @@ $quote = $quotes[mt_rand(0, count($quotes) - 1)];
 
       <!-- I did my best to keep this page viewable even without Javascript. Hooray for unobtrusive Javascript! -->
 
-      <script> if (window.$) document.getElementById('container').style.display = 'none';</script>
+      <script> document.getElementById('container').style.display = 'none';</script>
     
       <h1><a href="http://www.aiham.net/">Aiham Hammami</a></h1>
 
