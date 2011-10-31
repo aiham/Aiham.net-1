@@ -128,20 +128,20 @@
       }
 
     });
-  
-    $('li p').hide();
+
+    $('li').fadeTo(0, 0.6);
   
     $('li').mouseenter(function () {
   
-      $(this).find('p').stop(true, true).slideDown(300, 'swing');
+      $(this).stop(true, true).fadeTo(300, 1.0);
   
     }).mouseleave(function () {
   
-      $(this).find('p').stop(true, true).slideUp(300, 'swing');
+      $(this).stop(true, true).fadeTo(300, 0.6);
   
     }).click(function () {
 
-      document.location.href = $(this).find('h2 a').attr('href');
+      document.location.href = $(this).find('a').attr('href');
 
     });
   

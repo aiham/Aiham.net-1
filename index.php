@@ -124,21 +124,23 @@ $quote = $quotes[mt_rand(0, count($quotes) - 1)];
 
       <ul>
       
-        <li>
+        <li><a href="http://www.github.com/aiham/">Github Profile</a></li>
+
+        <li><a href="http://www.stackoverflow.com/users/545726/aiham">Stackoverflow Profile</a></li>
       
-          <h2><a href="http://personal.aiham.net/">Personal</a></h2>
+        <li><a href="http://www.linkedin.com/in/aihamh">LinkedIn Profile</a></li>
       
-          <p>Personal blog about my interests, daily life, travel, work and school. Other than programming, I'm interested in Japan and have lived there for a few years learning the language and experiencing the culture.</p>
+        <li><a href="http://personal.aiham.net/">Personal Blog</a></li>
       
-        </li>
+        <li><a href="http://programming.aiham.net/">Programming Blog</a></li>
       
-        <li>
+        <li><a href="http://code.aiham.net/gyudonjs/">Gyudon.js Canvas Library</a></li>
       
-          <h2><a href="http://programming.aiham.net/">Programming</a></h2>
+        <li><a href="http://apps.aiham.net/dymaxion/">Dymaxion Puzzle Game (Google HTML5 Competition 2011 Finalist)</a></li>
       
-          <p>Programming blog detailing my experience with technology; mainly software development. The main languages I use are php, javascript, perl and objective-c. I'm always learning new things and so try to post about them.</p>
+        <li><a href="http://apps.aiham.net/jsminesweeper/">Minesweeper Game</a></li>
       
-        </li>
+        <li><a href="http://apps.aiham.net/petridish/">Petridish Experiment (Gyudon.js demo)</a></li>
       
       </ul>
     

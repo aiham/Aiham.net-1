@@ -2,7 +2,7 @@
   body {
 
     margin: 0;
-    padding: 100px;
+    padding: 3em;
     text-align: center;
     background: white;
     color: black;
@@ -17,39 +17,38 @@
   
   h1 { font-size: 2em; padding-bottom: 0; }
 
-  h1, #contact { margin-bottom: 50px; }
+  h1 { margin-bottom: 1.8em; }
   
   h1 a { color: black; }
 
-  #quote { color: gray; font-family: serif; margin-bottom: 20px; }
+  #quote { color: gray; font-family: serif; margin-bottom: 1.8em; }
 
   #quote span { font-size: 4em; vertical-align: -40%; }
-  
-  h2 a { color: gray; }
+
+  #contact { margin-bottom: 2.2em; }
   
   #contact a { color: black; }
 
   #contact a:hover { text-decoration: none; }
   
-  h2 { font-size: 1.1em; }
+  li a { color: gray; font-size: 1.1em; }
   
   ul {
 
     list-style: none;
-    width: 660px;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
+    width: 40%;
 
   }
   
   li {
 
-    float: left;
-    width: 300px;
+    text-align: center;
     margin: 0;
     background: #ddd;
-    padding: 10px;
+    padding: 1em;
     font-size: 0.9em;
     cursor: pointer;
 
@@ -58,13 +57,13 @@
   #notify {
 
     position: absolute;
-    width: 500px;
-    height: 80px;
+    width: 40em;
+    height: 25em;
     top: 50%;
     left: 50%;
-    margin-left: -250px;
-    margin-top: -40px;
-    padding: 20px;
+    margin-left: -20em;
+    margin-top: -12.5em;
+    padding: 3em;
     border: 1px black solid;
     background: white;
 
@@ -72,7 +71,7 @@
 
   #notify div {
 
-    margin-top: 10px;
+    margin-top: 3em;
     text-align: center;
     font-size: 1.8em;
 
@@ -83,13 +82,13 @@
   #email_box {
 
     position: absolute;
-    width: 400px;
-    height: 240px;
+    width: 34em;
+    height: 20em;
     top: 50%;
     left: 50%;
-    margin-left: -200px;
-    margin-top: -120px;
-    padding: 20px;
+    margin-left: -17em;
+    margin-top: -10em;
+    padding: 3em;
     border: 1px black solid;
     background: white;
 
@@ -98,14 +97,14 @@
   #email_box textarea {
 
     width: 100%;
-    height: 120px;
+    height: 8em;
     margin: 0;
 
   }
 
-  #email_box div { padding: 0; margin: 0; margin-bottom: 15px; }
+  #email_box div { padding: 0; margin: 0; margin-bottom: 3em; }
 
-  #from { width: 280px; margin-left: 20px; }
+  #from { width: 30em; margin-left: 3em; }
 
   #email_box div.footer { text-align: left; }
 
@@ -113,5 +112,3 @@
 
   #email_box div.footer a { color: gray; }
   
-  li:first-child { margin-right: 20px; };
-
