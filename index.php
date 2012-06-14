@@ -129,6 +129,8 @@ $quote = $quotes[mt_rand(0, count($quotes) - 1)];
         <li><a href="http://www.stackoverflow.com/users/545726/aiham">Stackoverflow Profile</a></li>
       
         <li><a href="http://www.linkedin.com/in/aihamh">LinkedIn Profile</a></li>
+
+        <li><a href="http://www.smallpotion.com/">Small Potion</a></li>
       
         <li><a href="http://personal.aiham.net/">Personal Blog</a></li>
       
@@ -136,11 +138,13 @@ $quote = $quotes[mt_rand(0, count($quotes) - 1)];
       
         <li><a href="http://code.aiham.net/gyudonjs/">Gyudon.js Canvas Library</a></li>
       
-        <li><a href="http://apps.aiham.net/dymaxion/">Dymaxion Puzzle Game (Google HTML5 Competition 2011 Finalist)</a></li>
+        <li><a href="http://apps.aiham.net/dymaxion/">Dymaxion Puzzle Game<br>(Google HTML5 Competition 2011 Finalist)</a></li>
       
         <li><a href="http://apps.aiham.net/jsminesweeper/">Minesweeper Game</a></li>
       
         <li><a href="http://apps.aiham.net/petridish/">Petridish Experiment (Gyudon.js demo)</a></li>
+      
+        <li><a href="http://apps.aiham.net/solarsystemjs/">The Solar System (Gyudon.js demo)</a></li>
       
       </ul>
     
