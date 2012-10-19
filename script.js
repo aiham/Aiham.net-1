@@ -3,7 +3,7 @@
   
     var ul = $('ul').hide(),
       contact = $('#contact').hide(),
-      quote = $('#quote').hide(),
+      about = $('#about').hide(),
       h1 = $('h1').hide(),
       container = $('#container').show();
 
@@ -19,11 +19,11 @@
         return;
       }
 
-      form_html = '<div>Feel free to send me a message</div>';
+      form_html = '<div>Send me an email</div>';
 
       form_html += '<div><textarea></textarea></div>';
 
-      form_html += '<div><label for="from">From</label><input id="from"></div>';
+      form_html += '<div><label for="from">From (optional)</label> <input id="from"></div>';
 
       form_html += '<div class="footer"><input type="submit" value="Send"> <a href="#">Close</a></div>';
 
@@ -145,13 +145,13 @@
 
     });
   
-    h1.fadeIn(1000, function () {
+    h1.fadeIn(500, function () {
 
-      quote.fadeIn(1000);
+      about.fadeIn(500);
   
-      contact.fadeIn(1000, function () {
+      contact.fadeIn(500, function () {
   
-        ul.slideDown(1000, 'swing');
+        ul.slideDown(500, 'swing');
 
       });
   

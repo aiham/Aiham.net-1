@@ -5,36 +5,49 @@
   body {
 
     margin: 0;
-    padding: 3em;
+    padding: 2em;
     text-align: center;
     background: white;
-    color: black;
+    color: #3B3C36;
     font-size: 1em;
     font-family: sans-serif;
 
   }
   
-  a { text-decoration: none; }
+  a { text-decoration: none; color: orange; }
   
-  a:hover { text-decoration: underline; }
+  a:hover { text-decoration: underline; color: orange; }
   
-  h1 { font-size: 2em; padding-bottom: 0; }
+  h1 {
 
-  h1 { margin-bottom: 1.8em; }
+    font-size: 3em;
+    font-weight: normal;
+    padding-bottom: 0;
+    margin-bottom: 0.4em;
+
+  }
   
-  h1 a { color: black; }
+  h1 a { color: gray; }
 
-  #quote { color: gray; font-family: serif; margin-bottom: 1.8em; }
+  h1 a:hover { text-decoration: none; }
 
-  #quote span { font-size: 4em; vertical-align: -40%; }
-
-  #contact { margin-bottom: 2.2em; }
+  #contact { font-size: 1.6em; margin: 0; margin-bottom: 1.2em; }
   
-  #contact a { color: black; }
+  #contact a { color: gray; }
 
-  #contact a:hover { text-decoration: none; }
+  #contact a:hover { text-decoration: none; color: orange; }
+
+  #about {
+
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 3em;
+    font-size: 0.8em;
+    line-height: 2em;
+
+  }
   
-  li a { color: black; font-size: 1.1em; }
+  li a { color: #3B3C36; font-size: 1.1em; }
   
   ul {
 
@@ -42,7 +55,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-    width: 40%;
+    width: 30%;
 
   }
   
@@ -50,10 +63,26 @@
 
     text-align: center;
     margin: 0;
+    margin-bottom: 0.5em;
     background: #ddd;
     padding: 1em;
     font-size: 0.9em;
     cursor: pointer;
+    border-radius: 0.6em;
+    -moz-border-radius: 0.6em;
+
+  }
+
+  li:hover {
+
+    background: orange;
+
+  }
+
+  li a:hover {
+
+    color: #3B3C36;
+    text-decoration: none;
 
   }
 
@@ -67,7 +96,7 @@
     margin-left: -20em;
     margin-top: -12.5em;
     padding: 3em;
-    border: 1px black solid;
+    border: 1px #3B3C36 solid;
     background: white;
 
   }
@@ -91,21 +120,35 @@
     left: 50%;
     margin-left: -17em;
     margin-top: -10em;
+    text-align: center;
     padding: 3em;
-    border: 1px black solid;
+    border: 1px #3B3C36 solid;
     background: white;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
 
   }
 
   #email_box textarea {
 
-    width: 100%;
+    width: 90%;
     height: 8em;
     margin: 0;
+    padding: 1em;
+    border-radius: 0.6em;
+    -moz-border-radius: 0.6em;
 
   }
 
-  #email_box div { padding: 0; margin: 0; margin-bottom: 3em; }
+  #email_box input {
+
+    padding: 1em;
+    border-radius: 0.6em;
+    -moz-border-radius: 0.6em;
+
+  }
+
+  #email_box div { padding: 0; margin: 0; margin-bottom: 2em; }
 
   #from { width: 30em; margin-left: 3em; }
 

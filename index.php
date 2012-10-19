@@ -116,23 +116,21 @@ $quote = $quotes[mt_rand(0, count($quotes) - 1)];
     
       <h1><a href="http://www.aiham.net/">Aiham Hammami</a></h1>
 
-      <div id="quote" title="My favourite quotes"><span>&ldquo;</span> <?php echo htmlspecialchars($quote, ENT_QUOTES, 'UTF-8'); ?> <span>&rdquo;</span></div>
-
       <!-- Pretty sure the bots won't be able to figure out how to get around this one too fast. -->
       
-      <div id="contact">aiham<span style="font-style: italics; display:none">don't add this to the email, it's here so i don't get strange emails from bots trying to sell me stuff (they're not very good at it)</span>&#64;aiham.net</div>
+      <div id="contact">aiham<span style="font-style: italics; display:none">REMOVE THIS</span>&#64;aiham.net</div>
+
+      <div id="about">I am a software developer interested in the Internet and developing mobile and web technologies. I recently completed my studies at the University of Technology Sydney and with friends founded <a href="http://www.smallpotion.com">Small Potion</a> for the development of mobile apps and games together. Below are my online profiles and some websites/apps that I've worked on. Feel free to contact me.</div>
 
       <ul>
+
+        <li><a href="http://www.smallpotion.com/">Small Potion</a></li>
+      
+        <li><a href="http://www.linkedin.com/in/aihamh">LinkedIn Profile</a></li>
       
         <li><a href="http://www.github.com/aiham/">Github Profile</a></li>
 
         <li><a href="http://www.stackoverflow.com/users/545726/aiham">Stackoverflow Profile</a></li>
-      
-        <li><a href="http://www.linkedin.com/in/aihamh">LinkedIn Profile</a></li>
-
-        <li><a href="http://www.smallpotion.com/">Small Potion</a></li>
-      
-        <li><a href="http://personal.aiham.net/">Personal Blog</a></li>
       
         <li><a href="http://programming.aiham.net/">Programming Blog</a></li>
       
@@ -140,11 +138,11 @@ $quote = $quotes[mt_rand(0, count($quotes) - 1)];
       
         <li><a href="http://apps.aiham.net/dymaxion/">Dymaxion Puzzle Game<br>(Google HTML5 Competition 2011 Finalist)</a></li>
       
+        <li><a href="http://apps.aiham.net/solarsystemjs/">The Solar System (Gyudon.js demo)</a></li>
+      
         <li><a href="http://apps.aiham.net/jsminesweeper/">Minesweeper Game</a></li>
       
         <li><a href="http://apps.aiham.net/petridish/">Petridish Experiment (Gyudon.js demo)</a></li>
-      
-        <li><a href="http://apps.aiham.net/solarsystemjs/">The Solar System (Gyudon.js demo)</a></li>
       
       </ul>
     
